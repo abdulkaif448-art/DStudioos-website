@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book DStudioos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="booking">
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="logo">DStudioos</div>
+      <nav class="main-nav">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="booking.html" data-nav="booking">Booking</a>
+        <a href="testimonials.html" data-nav="testimonials">Testimonials</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="pricing.html" data-nav="pricing">Pricing</a>
+        <a href="faq.html" data-nav="faq">FAQ</a>
+      </nav>
+      <a class="btn" href="booking.html">Book Now</a>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-title">Booking & Contact</h1>
+      <p class="section-subtitle">Share your celebration details so we can craft a custom proposal.</p>
+      <div class="booking-section">
+        <form id="booking-form" class="card">
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Priya & Arjun" />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 90000 12345" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="hello@example.com" />
+          </div>
+          <div>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" />
+          </div>
+          <div>
+            <label for="service">Type of Service</label>
+            <select id="service" name="service">
+              <option value="">Select</option>
+              <option>Wedding</option>
+              <option>Event</option>
+              <option>Portrait</option>
+              <option>Commercial</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your celebration"></textarea>
+          </div>
+          <button class="btn" type="submit">Submit Inquiry</button>
+        </form>
+        <div>
+          <div class="card">
+            <h3>Studio Hours</h3>
+            <p>Mon – Sat · 10am – 8pm IST</p>
+            <p>Virtual consultations for international clients.</p>
+            <a class="whatsapp-btn" href="https://wa.me/919000012345" target="_blank" rel="noopener">💬 WhatsApp Chat</a>
+          </div>
+          <div class="map-embed" style="margin-top:1.5rem;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8611320433553!2d80.23761777604684!3d13.002779014069075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52675d5af9fdf9%3A0x5c5c7ffc8dae972d!2sChennai!5e0!3m2!1sen!2sin!4v1700000000000"
+              width="100%" height="320" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-grid">
+      <div>
+        <h4>DStudioos</h4>
+        <p>Capturing heartfelt celebrations across the globe.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>12 Aurora Lane, Chennai · Available worldwide</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@dstudioos.com<br />+91 90000 12345</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wrapper">
+      © <span id="year"></span> DStudioos. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+

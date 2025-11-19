@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DStudioos Testimonials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="testimonials">
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="logo">DStudioos</div>
+      <nav class="main-nav">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="booking.html" data-nav="booking">Booking</a>
+        <a href="testimonials.html" data-nav="testimonials">Testimonials</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="pricing.html" data-nav="pricing">Pricing</a>
+        <a href="faq.html" data-nav="faq">FAQ</a>
+      </nav>
+      <a class="btn" href="booking.html">Book Now</a>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-title">Love Notes</h1>
+      <p class="section-subtitle">What our couples, clients, and creative partners say about DStudioos.</p>
+      <div class="testimonial-grid">
+        <article class="testimonial-card card">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Client" />
+          <p>“They anticipated every moment before it happened. Our gallery feels like a fashion editorial that still
+            looks like us.”</p>
+          <div class="stars">★★★★★</div>
+          <p><strong>Reya & Nikhil · Jaipur</strong></p>
+        </article>
+        <article class="testimonial-card card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80" alt="Client" />
+          <p>“The team was calm, organized, and gracefully directed our families. We relived every emotion through the
+            film and photos.”</p>
+          <div class="stars">★★★★★</div>
+          <p><strong>Sabine & Omar · Abu Dhabi</strong></p>
+        </article>
+        <article class="testimonial-card card">
+          <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=400&q=80" alt="Client" />
+          <p>“DStudioos delivered high-end imagery for our launch campaign and BTS story that fans adored.”</p>
+          <div class="stars">★★★★★</div>
+          <p><strong>Maison Alaya · Dubai</strong></p>
+        </article>
+      </div>
+      <div class="card" style="margin-top:2rem;">
+        <h3>Video Testimonial</h3>
+        <div class="map-embed">
+          <iframe width="100%" height="360"
+            src="https://www.youtube.com/embed/Scxs7L0vhZ4?rel=0"
+            title="Client video testimonial" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="hero-cta" style="justify-content:center; margin-top:2rem;">
+        <a class="btn" href="#">Watch Video Testimonials</a>
+        <a class="btn btn-outline" href="booking.html">Start Your Journey</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-grid">
+      <div>
+        <h4>DStudioos</h4>
+        <p>Capturing heartfelt celebrations across the globe.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>12 Aurora Lane, Chennai · Available worldwide</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@dstudioos.com<br />+91 90000 12345</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wrapper">
+      © <span id="year"></span> DStudioos. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+

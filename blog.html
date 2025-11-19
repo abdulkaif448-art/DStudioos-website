@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DStudioos Journal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="blog">
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="logo">DStudioos</div>
+      <nav class="main-nav">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="booking.html" data-nav="booking">Booking</a>
+        <a href="testimonials.html" data-nav="testimonials">Testimonials</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="pricing.html" data-nav="pricing">Pricing</a>
+        <a href="faq.html" data-nav="faq">FAQ</a>
+      </nav>
+      <a class="btn" href="booking.html">Book Now</a>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-title">Journal & Tips</h1>
+      <p class="section-subtitle">Peek behind the scenes, explore photography advice, and read client stories.</p>
+      <div class="blog-grid">
+        <article class="blog-card card">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Tips" />
+          <p class="blog-meta">Photography Tips</p>
+          <h3>How to build a stress-free wedding timeline</h3>
+          <p>Our most requested advice for planning portraits, ceremonial events, and golden hour coverage.</p>
+          <a class="btn btn-outline" href="#">Read Story</a>
+        </article>
+        <article class="blog-card card">
+          <img src="https://images.unsplash.com/photo-1519741347686-2230bcbf0508?auto=format&fit=crop&w=900&q=80" alt="Behind the scenes" />
+          <p class="blog-meta">Behind the Scenes</p>
+          <h3>Designing a palace wedding in Udaipur</h3>
+          <p>Production notes, lighting diagrams, and wardrobe palettes that inspired the weekend.</p>
+          <a class="btn btn-outline" href="#">Read Story</a>
+        </article>
+        <article class="blog-card card">
+          <img src="https://images.unsplash.com/photo-1473277087565-cca6115d449e?auto=format&fit=crop&w=900&q=80" alt="Gear review" />
+          <p class="blog-meta">Gear & Editing</p>
+          <h3>Our hybrid film + digital workflow</h3>
+          <p>Tech we love for dreamy highlights, bold contrast, and fast delivery.</p>
+          <a class="btn btn-outline" href="#">Read Story</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-grid">
+      <div>
+        <h4>DStudioos</h4>
+        <p>Capturing heartfelt celebrations across the globe.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>12 Aurora Lane, Chennai · Available worldwide</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@dstudioos.com<br />+91 90000 12345</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wrapper">
+      © <span id="year"></span> DStudioos. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+

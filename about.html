@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About DStudioos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="about">
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="logo">DStudioos</div>
+      <nav class="main-nav">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="booking.html" data-nav="booking">Booking</a>
+        <a href="testimonials.html" data-nav="testimonials">Testimonials</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="pricing.html" data-nav="pricing">Pricing</a>
+        <a href="faq.html" data-nav="faq">FAQ</a>
+      </nav>
+      <a class="btn" href="booking.html">Book Now</a>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section hero">
+      <div class="hero-content">
+        <p class="team-role">Our Story</p>
+        <h1>Born from a love of light, culture, and human connection.</h1>
+        <p>
+          Founder and creative director Dia Sharma launched DStudioos after a decade of leading luxury brand campaigns.
+          Today we are a collective of photographers, directors, editors, and stylists shaping refined narratives for
+          modern couples.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Studio Values</h3>
+        <p>We believe photographs should feel alive decades from now. Every commission is guided by:</p>
+        <ul class="add-ons">
+          <li>Intentional storytelling</li>
+          <li>Respect for culture & tradition</li>
+          <li>Effortless luxury</li>
+          <li>Kind collaboration</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section secondary-section">
+      <h2 class="section-title">Meet the Team</h2>
+      <div class="team-grid">
+        <article class="team-card card">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Dia Sharma" />
+          <h3>Dia Sharma</h3>
+          <p class="team-role">Creative Director</p>
+          <p>Guides art direction, styling, and ensures every gallery feels editorial yet intimate.</p>
+        </article>
+        <article class="team-card card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Milan Jo" />
+          <h3>Milan Jo</h3>
+          <p class="team-role">Lead Photographer</p>
+          <p>Specializes in destination weddings with an eye for cinematic composition and light.</p>
+        </article>
+        <article class="team-card card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Ananya Rao" />
+          <h3>Ananya Rao</h3>
+          <p class="team-role">Senior Editor</p>
+          <p>Refines color grading, retouching, and printed deliverables for heirloom quality.</p>
+        </article>
+        <article class="team-card card">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Leo Mendes" />
+          <h3>Leo Mendes</h3>
+          <p class="team-role">Experience Producer</p>
+          <p>Manages production timelines, vendor relationships, and on-site logistics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h2 class="section-title">Vision</h2>
+        <p>
+          To craft visual legacies for couples who value intentional design, cultural heritage, and effortless elegance.
+          We thrive at the intersection of art direction and authentic emotion.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-grid">
+      <div>
+        <h4>DStudioos</h4>
+        <p>Capturing heartfelt celebrations across the globe.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>12 Aurora Lane, Chennai · Available worldwide</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@dstudioos.com<br />+91 90000 12345</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wrapper">
+      © <span id="year"></span> DStudioos. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+

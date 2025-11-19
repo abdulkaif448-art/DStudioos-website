@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DStudioos Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="services">
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="logo">DStudioos</div>
+      <nav class="main-nav">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="portfolio.html" data-nav="portfolio">Portfolio</a>
+        <a href="services.html" data-nav="services">Services</a>
+        <a href="booking.html" data-nav="booking">Booking</a>
+        <a href="testimonials.html" data-nav="testimonials">Testimonials</a>
+        <a href="blog.html" data-nav="blog">Blog</a>
+        <a href="pricing.html" data-nav="pricing">Pricing</a>
+        <a href="faq.html" data-nav="faq">FAQ</a>
+      </nav>
+      <a class="btn" href="booking.html">Book Now</a>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-title">Services</h1>
+      <p class="section-subtitle">Tailored photography and design experiences for every milestone.</p>
+      <div class="services-grid">
+        <article class="card">
+          <h3>Wedding Collections</h3>
+          <div class="service-meta">
+            <span>From ₹95,000</span>
+            <span>10 hrs coverage</span>
+          </div>
+          <p>Ideal for full-day celebrations with two photographers, timeline guidance, and couture album design.</p>
+          <ul class="add-ons">
+            <li>Engagement session</li>
+            <li>Same-day slideshow</li>
+            <li>Fine-art album</li>
+          </ul>
+          <a class="btn" href="booking.html">Reserve</a>
+        </article>
+        <article class="card">
+          <h3>Events & Parties</h3>
+          <div class="service-meta">
+            <span>From ₹45,000</span>
+            <span>6 hrs coverage</span>
+          </div>
+          <p>For luxury launches, anniversaries, and private dinners with fast gallery delivery.</p>
+          <ul class="add-ons">
+            <li>On-site prints</li>
+            <li>Same-day highlights</li>
+            <li>Brand mood film</li>
+          </ul>
+          <a class="btn" href="booking.html">Inquire</a>
+        </article>
+        <article class="card">
+          <h3>Portraits</h3>
+          <div class="service-meta">
+            <span>From ₹25,000</span>
+            <span>2 hrs coverage</span>
+          </div>
+          <p>Editorial couples, maternity, and legacy family portraiture with studio or on-location styling.</p>
+          <ul class="add-ons">
+            <li>Wardrobe stylist</li>
+            <li>Hair & makeup</li>
+            <li>Fine-art prints</li>
+          </ul>
+          <a class="btn" href="booking.html">Schedule</a>
+        </article>
+        <article class="card">
+          <h3>Commercial Campaigns</h3>
+          <div class="service-meta">
+            <span>Custom Quote</span>
+            <span>Global travel</span>
+          </div>
+          <p>Art direction, production, and post for fashion, hospitality, and lifestyle clients.</p>
+          <ul class="add-ons">
+            <li>Creative treatments</li>
+            <li>Motion deliverables</li>
+            <li>Retouching suites</li>
+          </ul>
+          <a class="btn" href="booking.html">Pitch Project</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper footer-grid">
+      <div>
+        <h4>DStudioos</h4>
+        <p>Capturing heartfelt celebrations across the globe.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>12 Aurora Lane, Chennai · Available worldwide</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@dstudioos.com<br />+91 90000 12345</p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wrapper">
+      © <span id="year"></span> DStudioos. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+
